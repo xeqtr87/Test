@@ -13,7 +13,7 @@
         background-color:gray;
 }
 
-.boardCard {
+.front {
     height: 45%;
     width: 20%;
     padding: 5px;
@@ -26,3 +26,4 @@
         width: 92%;
         height: 500px;
 }
+#front_info
