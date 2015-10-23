@@ -1,12 +1,28 @@
-.movingblock
+#container
 {
-width: 200px;
-height: 200px;
-background-color: green;
-color: white;
-border: 4px solid black;
-margin: 100px 0 0 80px;
+ width: 500px;
+ background-color: red;
+ margin: 0px auto;
+ height: 500px;
 }
-p,h3 {margin: 0; padding: 0;}
-        p {height: 150px; width: 200px; border: 1px solid black;}
-        h3 {height: 50px; width: 200px; background-color: green; color: yellow; border: 1px solid black;}
+
+#memoryBoard {
+        width:800px;
+        height:500px;
+        padding:20px;
+        background-color:gray;
+}
+
+.boardCard {
+    height: 45%;
+    width: 20%;
+    padding: 5px;
+    background-color: blue;
+    float: right;
+    margin: 7px;
+}
+#cardposition
+{
+        width: 92%;
+        height: 500px;
+}
